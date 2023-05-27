@@ -3,7 +3,9 @@ name = "deconvolute-demo"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
-sdl2 = { version = "0.35", features = ["gfx"] }
+sdl2 = { version = "0.34" }    # , features = ["gfx"]
+imgui = { version = "0.11.0" }
+glow = "0.12.1"
+imgui-glow-renderer = "0.11.0"
+imgui-sdl2-support = "0.11.0"
